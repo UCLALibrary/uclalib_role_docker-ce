@@ -1,0 +1,17 @@
+---
+non_ce_pkgs:
+  - docker-client
+  - docker-client-latest
+  - docker-common
+  - docker-latest
+  - docker-latest-logrotate
+  - docker-logrotate
+  - docker-engine
+  - docker
+
+ce_pkgs:
+  - docker-ce
+  - docker-ce-cli
+  - containerd.io
+
+docker_compose_release_vers: 1.24.0

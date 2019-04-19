@@ -1,0 +1,25 @@
+---
+
+- name: Remove Docker non community edition packages
+  yum:
+    name: "{{ non_ce_pkgs }}"
+    state: absent
+
+- name: Upload repository
+  copy:
+    src: docker-ce-stable.repo
+    dest: /etc/yum.repos.d/docker-ce-stable.repo
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Install Docker CE
+  yum:
+    name: "{{ ce_pkgs }}"
+    state: present
+
+- name: Enable docker service
+  service:
+    name: docker
+    enabled: yes
+    state: started

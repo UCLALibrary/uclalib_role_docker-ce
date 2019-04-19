@@ -1,0 +1,7 @@
+---
+- name: Add a dedicated docker deploy user
+  user:
+    name: dockeradmin
+    comment: Docker Admin Account
+    uid: 600
+    groups: docker

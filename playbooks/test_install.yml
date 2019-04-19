@@ -1,0 +1,8 @@
+---
+
+- name: test_install.yml
+  hosts: 127.0.0.1
+  connection: local
+
+  roles:
+    - { role: uclalib_role_docker-ce }

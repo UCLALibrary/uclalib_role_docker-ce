@@ -1,0 +1,6 @@
+---
+
+- import_tasks: install_docker_ce.yml
+- import_tasks: install_docker_compose.yml
+  when: docker_compose_install is defined
+- import_tasks: create_docker_admin.yml
