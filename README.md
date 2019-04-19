@@ -1,4 +1,4 @@
-# uclalib_role_docker-ce
+# uclalib_role_docker-ce [![Build Status](https://travis-ci.com/UCLALibrary/uclalib_role_docker-ce.svg?branch=master)](https://travis-ci.com/UCLALibrary/uclalib_role_docker-ce)
 
 This role is designed to install Docker Community Edition on CentOS 7 and RHEL 7 Servers
 
@@ -13,4 +13,4 @@ If you want to install docker-composer along with Docker, run the following:
 
 ### Contact
 
-If you have any questions or have a recommendation to suggest, feel free to open a ticket in this project's [issues queue](https://github.com/UCLALibrary/uclalib_role_docker-ce) or contact me at <a href="mailto:lightningcount513@gmail.com">Anthony Vuong</a>.
+If you have any questions or have a recommendation to suggest, feel free to open a ticket in this project's [issues queue](https://github.com/UCLALibrary/uclalib_role_docker-ce/issues) or contact me at <a href="mailto:lightningcount513@gmail.com">Anthony Vuong</a>.
